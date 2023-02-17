@@ -1,8 +1,9 @@
 {
   "type": "module",
   "scripts": {
-    "start": "",
-    "dev": ""
+    "start": "node dist/index.ts",
+    "dev": "tsc-watch --onSuccess \"node ./dist/index.ts\"",
+    "build": "tsc"
   },
   "dependencies": {
     "@types/jest": "^29.4.0",
