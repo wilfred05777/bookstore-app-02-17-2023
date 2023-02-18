@@ -1,34 +1,81 @@
 {
 
+<<<<<<< HEAD
   "main":"index.ts",
   "scripts": {
     "start": "ts-node ./src/index.ts"
+=======
+  "scripts": {
+
+    "start": "ts-node ./src/server.ts"
+
+>>>>>>> 17ef729011f5b57aad64d9a42f8596db61a893a3
   },
+
   "dependencies": {
+
     "@types/jest": "^29.4.0",
+
     "@types/react": "^18.0.28",
+
     "@types/react-dom": "^18.0.11",
+<<<<<<< HEAD
     "body-parser": "^1.20.1",
+=======
+
+>>>>>>> 17ef729011f5b57aad64d9a42f8596db61a893a3
     "dotenv": "^16.0.3",
+
     "express": "^4.18.2",
+<<<<<<< HEAD
     "mongoose": "^6.9.2"
+=======
+
+    "nodemon": "^2.0.20"
+
+>>>>>>> 17ef729011f5b57aad64d9a42f8596db61a893a3
   },
+
   "devDependencies": {
+<<<<<<< HEAD
     "@types/body-parser": "^1.19.2",
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
     "@types/mongoose": "^5.11.97",
+=======
+
+    "@types/express": "^4.17.17",
+
+>>>>>>> 17ef729011f5b57aad64d9a42f8596db61a893a3
     "@types/node": "^18.13.0",
+
     "@typescript-eslint/eslint-plugin": "^5.52.0",
+
     "@typescript-eslint/parser": "^5.52.0",
+
     "cors": "^2.8.5",
+
     "eslint": "^8.34.0",
+
     "eslint-config-prettier": "^8.6.0",
+
     "eslint-plugin-prettier": "^4.2.1",
+<<<<<<< HEAD
     "nodemon": "^2.0.20",
     "prettier": "^2.8.4",
     "ts-node": "^10.9.1",
+=======
+
+    "prettier": "^2.8.4",
+
+    "ts-node": "^10.9.1",
+
+>>>>>>> 17ef729011f5b57aad64d9a42f8596db61a893a3
     "tsc-watch": "^6.0.0",
+
     "typescript": "^4.9.5"
+
   }
+
 }
+
